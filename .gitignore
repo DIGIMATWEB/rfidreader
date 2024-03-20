@@ -1,5 +1,8 @@
 *.iml
 .gradle
+/.idea
+/FH75Demo/app/build/intermediates
+/app/build/intermediates
 /local.properties
 /.idea/caches
 /.idea/libraries

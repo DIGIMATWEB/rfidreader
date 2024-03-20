@@ -1,0 +1,98 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.vanch.vhxdemo"
+4    android:versionCode="18"
+5    android:versionName="1.0.18" >
+6
+7    <uses-sdk
+7-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:8:5-10:41
+8        android:minSdkVersion="23"
+8-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:9:9-34
+9        android:targetSdkVersion="31" />
+9-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:10:9-38
+10
+11    <uses-permission android:name="android.permission.BLUETOOTH" />
+11-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:12:5-68
+11-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:12:22-65
+12    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+12-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:13:5-74
+12-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:13:22-71
+13
+14    <supports-screens
+14-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:15:5-17:37
+15        android:anyDensity="true"
+15-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:16:9-34
+16        android:resizeable="true" />
+16-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:17:9-34
+17
+18    <uses-permission android:name="android.permission.VIBRATE" />
+18-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:19:5-66
+18-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:19:22-63
+19    <uses-permission android:name="android.permission.READ_PROFILE" />
+19-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:20:5-71
+19-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:20:22-68
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:21:5-79
+20-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:21:22-76
+21    <uses-permission android:name="android.permission.INTERNET" />
+21-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:22:5-67
+21-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:22:22-64
+22    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+22-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:23:5-80
+22-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:23:22-77
+23    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+23-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:24:5-75
+23-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:24:22-72
+24    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+24-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:25:5-81
+24-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:25:22-78
+25    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+25-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:26:5-27:47
+25-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:26:22-81
+26
+27    <application
+27-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:29:5-49:19
+28        android:allowBackup="true"
+28-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:30:9-35
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.0.0] /Users/digimat-interactive/.gradle/caches/transforms-3/1a13e9093b391f2d86e34d05488e1a8f/transformed/core-1.0.0/AndroidManifest.xml:22:18-86
+30        android:debuggable="true"
+31        android:extractNativeLibs="false"
+32        android:icon="@drawable/ic_launcher"
+32-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:31:9-45
+33        android:label="@string/app_name"
+33-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:32:9-41
+34        android:testOnly="true"
+35        android:theme="@style/AppTheme" >
+35-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:33:9-40
+36        <activity
+36-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:34:9-43:20
+37            android:name="com.vanch.vhxdemo.MainActivity"
+37-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:35:13-58
+38            android:exported="true"
+38-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:36:13-36
+39            android:label="@string/app_name" >
+39-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:37:13-45
+40            <intent-filter>
+40-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:38:13-42:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:39:17-69
+41-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:39:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:41:17-77
+43-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:41:27-74
+44            </intent-filter>
+45        </activity>
+46        <activity
+46-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:44:9-48:20
+47            android:name="com.vanch.vhxdemo.ConfigPreference"
+47-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:45:13-62
+48            android:exported="true"
+48-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:46:13-36
+49            android:label="@string/title_activity_config_freference" >
+49-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:47:13-69
+50        </activity>
+51    </application>
+52
+53</manifest>

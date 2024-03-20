@@ -1,0 +1,70 @@
+[
+    {
+        "merged": "E:\\VH75Demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_edittext_disable.xml",
+        "source": "E:\\VH75Demo\\app\\src\\main\\res\\drawable\\bg_edittext_disable.xml"
+    },
+    {
+        "merged": "E:\\VH75Demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\stop_btn_press.xml",
+        "source": "E:\\VH75Demo\\app\\src\\main\\res\\drawable\\stop_btn_press.xml"
+    },
+    {
+        "merged": "E:\\VH75Demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\txt_bg.9.png",
+        "source": "E:\\VH75Demo\\app\\src\\main\\res\\drawable\\txt_bg.9.png"
+    },
+    {
+        "merged": "E:\\VH75Demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\radio_selected.xml",
+        "source": "E:\\VH75Demo\\app\\src\\main\\res\\drawable\\radio_selected.xml"
+    },
+    {
+        "merged": "E:\\VH75Demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_btn.xml",
+        "source": "E:\\VH75Demo\\app\\src\\main\\res\\drawable\\bg_btn.xml"
+    },
+    {
+        "merged": "E:\\VH75Demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\color_tab_selected.xml",
+        "source": "E:\\VH75Demo\\app\\src\\main\\res\\drawable\\color_tab_selected.xml"
+    },
+    {
+        "merged": "E:\\VH75Demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\input_bar_bg.9.png",
+        "source": "E:\\VH75Demo\\app\\src\\main\\res\\drawable\\input_bar_bg.9.png"
+    },
+    {
+        "merged": "E:\\VH75Demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_edittext.xml",
+        "source": "E:\\VH75Demo\\app\\src\\main\\res\\drawable\\bg_edittext.xml"
+    },
+    {
+        "merged": "E:\\VH75Demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\spinner_selector.xml",
+        "source": "E:\\VH75Demo\\app\\src\\main\\res\\drawable\\spinner_selector.xml"
+    },
+    {
+        "merged": "E:\\VH75Demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_selector.xml",
+        "source": "E:\\VH75Demo\\app\\src\\main\\res\\drawable\\btn_selector.xml"
+    },
+    {
+        "merged": "E:\\VH75Demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tb.png",
+        "source": "E:\\VH75Demo\\app\\src\\main\\res\\drawable\\tb.png"
+    },
+    {
+        "merged": "E:\\VH75Demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_edittext_normal.xml",
+        "source": "E:\\VH75Demo\\app\\src\\main\\res\\drawable\\bg_edittext_normal.xml"
+    },
+    {
+        "merged": "E:\\VH75Demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_bg.xml",
+        "source": "E:\\VH75Demo\\app\\src\\main\\res\\drawable\\tab_bg.xml"
+    },
+    {
+        "merged": "E:\\VH75Demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\inventory_btn_press.xml",
+        "source": "E:\\VH75Demo\\app\\src\\main\\res\\drawable\\inventory_btn_press.xml"
+    },
+    {
+        "merged": "E:\\VH75Demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\acm_inputbox.png",
+        "source": "E:\\VH75Demo\\app\\src\\main\\res\\drawable\\acm_inputbox.png"
+    },
+    {
+        "merged": "E:\\VH75Demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_edittext_focused.xml",
+        "source": "E:\\VH75Demo\\app\\src\\main\\res\\drawable\\bg_edittext_focused.xml"
+    },
+    {
+        "merged": "E:\\VH75Demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\edittext_background.9.png",
+        "source": "E:\\VH75Demo\\app\\src\\main\\res\\drawable\\edittext_background.9.png"
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "E:\\VH75Demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_bluetooth.png",
+        "source": "E:\\VH75Demo\\app\\src\\main\\res\\drawable-mdpi\\ic_bluetooth.png"
+    },
+    {
+        "merged": "E:\\VH75Demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
+        "source": "E:\\VH75Demo\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\VH75Demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\bg_input.9.png",
+        "source": "E:\\VH75Demo\\app\\src\\main\\res\\drawable-mdpi\\bg_input.9.png"
+    },
+    {
+        "merged": "E:\\VH75Demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\light_on.9.png",
+        "source": "E:\\VH75Demo\\app\\src\\main\\res\\drawable-mdpi\\light_on.9.png"
+    },
+    {
+        "merged": "E:\\VH75Demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_bluetooth_connected.png",
+        "source": "E:\\VH75Demo\\app\\src\\main\\res\\drawable-mdpi\\ic_bluetooth_connected.png"
+    },
+    {
+        "merged": "E:\\VH75Demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\light_off.9.png",
+        "source": "E:\\VH75Demo\\app\\src\\main\\res\\drawable-mdpi\\light_off.9.png"
+    }
+]

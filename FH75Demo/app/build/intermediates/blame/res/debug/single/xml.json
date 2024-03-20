@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "E:\\VH75Demo\\app\\build\\intermediates\\res\\merged\\debug\\xml\\chinese.xml",
+        "source": "E:\\VH75Demo\\app\\src\\main\\res\\xml\\chinese.xml"
+    },
+    {
+        "merged": "E:\\VH75Demo\\app\\build\\intermediates\\res\\merged\\debug\\xml\\config.xml",
+        "source": "E:\\VH75Demo\\app\\src\\main\\res\\xml\\config.xml"
+    },
+    {
+        "merged": "E:\\VH75Demo\\app\\build\\intermediates\\res\\merged\\debug\\xml\\pref_data_sync.xml",
+        "source": "E:\\VH75Demo\\app\\src\\main\\res\\xml\\pref_data_sync.xml"
+    },
+    {
+        "merged": "E:\\VH75Demo\\app\\build\\intermediates\\res\\merged\\debug\\xml\\pref_notification.xml",
+        "source": "E:\\VH75Demo\\app\\src\\main\\res\\xml\\pref_notification.xml"
+    },
+    {
+        "merged": "E:\\VH75Demo\\app\\build\\intermediates\\res\\merged\\debug\\xml\\english.xml",
+        "source": "E:\\VH75Demo\\app\\src\\main\\res\\xml\\english.xml"
+    },
+    {
+        "merged": "E:\\VH75Demo\\app\\build\\intermediates\\res\\merged\\debug\\xml\\pref_general.xml",
+        "source": "E:\\VH75Demo\\app\\src\\main\\res\\xml\\pref_general.xml"
+    }
+]

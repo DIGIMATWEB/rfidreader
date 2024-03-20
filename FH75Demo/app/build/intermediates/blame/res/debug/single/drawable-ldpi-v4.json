@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\VH75Demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_bluetooth_connected.png",
+        "source": "E:\\VH75Demo\\app\\src\\main\\res\\drawable-ldpi\\ic_bluetooth_connected.png"
+    },
+    {
+        "merged": "E:\\VH75Demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_bluetooth.png",
+        "source": "E:\\VH75Demo\\app\\src\\main\\res\\drawable-ldpi\\ic_bluetooth.png"
+    },
+    {
+        "merged": "E:\\VH75Demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_bluetooth_search.png",
+        "source": "E:\\VH75Demo\\app\\src\\main\\res\\drawable-ldpi\\ic_bluetooth_search.png"
+    }
+]

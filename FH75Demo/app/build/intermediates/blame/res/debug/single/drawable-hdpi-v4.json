@@ -1,0 +1,90 @@
+[
+    {
+        "merged": "E:\\VH75Demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_radio_checked.png",
+        "source": "E:\\VH75Demo\\app\\src\\main\\res\\drawable-hdpi\\ic_radio_checked.png"
+    },
+    {
+        "merged": "E:\\VH75Demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_bluetooth_connected.png",
+        "source": "E:\\VH75Demo\\app\\src\\main\\res\\drawable-hdpi\\ic_bluetooth_connected.png"
+    },
+    {
+        "merged": "E:\\VH75Demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_btn_press.9.png",
+        "source": "E:\\VH75Demo\\app\\src\\main\\res\\drawable-hdpi\\ic_btn_press.9.png"
+    },
+    {
+        "merged": "E:\\VH75Demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_expand.png",
+        "source": "E:\\VH75Demo\\app\\src\\main\\res\\drawable-hdpi\\ic_expand.png"
+    },
+    {
+        "merged": "E:\\VH75Demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\input.9.png",
+        "source": "E:\\VH75Demo\\app\\src\\main\\res\\drawable-hdpi\\input.9.png"
+    },
+    {
+        "merged": "E:\\VH75Demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "E:\\VH75Demo\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\VH75Demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\inventory_pressed.png",
+        "source": "E:\\VH75Demo\\app\\src\\main\\res\\drawable-hdpi\\inventory_pressed.png"
+    },
+    {
+        "merged": "E:\\VH75Demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\connected.png",
+        "source": "E:\\VH75Demo\\app\\src\\main\\res\\drawable-hdpi\\connected.png"
+    },
+    {
+        "merged": "E:\\VH75Demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\inventory_press.png",
+        "source": "E:\\VH75Demo\\app\\src\\main\\res\\drawable-hdpi\\inventory_press.png"
+    },
+    {
+        "merged": "E:\\VH75Demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_flash_off.png",
+        "source": "E:\\VH75Demo\\app\\src\\main\\res\\drawable-hdpi\\ic_flash_off.png"
+    },
+    {
+        "merged": "E:\\VH75Demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn.png",
+        "source": "E:\\VH75Demo\\app\\src\\main\\res\\drawable-hdpi\\btn.png"
+    },
+    {
+        "merged": "E:\\VH75Demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bg_btn_press.png",
+        "source": "E:\\VH75Demo\\app\\src\\main\\res\\drawable-hdpi\\bg_btn_press.png"
+    },
+    {
+        "merged": "E:\\VH75Demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_bluetooth_search.png",
+        "source": "E:\\VH75Demo\\app\\src\\main\\res\\drawable-hdpi\\ic_bluetooth_search.png"
+    },
+    {
+        "merged": "E:\\VH75Demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\stop_pressed.png",
+        "source": "E:\\VH75Demo\\app\\src\\main\\res\\drawable-hdpi\\stop_pressed.png"
+    },
+    {
+        "merged": "E:\\VH75Demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\disconnected.png",
+        "source": "E:\\VH75Demo\\app\\src\\main\\res\\drawable-hdpi\\disconnected.png"
+    },
+    {
+        "merged": "E:\\VH75Demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\stop_press.png",
+        "source": "E:\\VH75Demo\\app\\src\\main\\res\\drawable-hdpi\\stop_press.png"
+    },
+    {
+        "merged": "E:\\VH75Demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_btn.9.png",
+        "source": "E:\\VH75Demo\\app\\src\\main\\res\\drawable-hdpi\\ic_btn.9.png"
+    },
+    {
+        "merged": "E:\\VH75Demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_bluetooth.png",
+        "source": "E:\\VH75Demo\\app\\src\\main\\res\\drawable-hdpi\\ic_bluetooth.png"
+    },
+    {
+        "merged": "E:\\VH75Demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_radio_unchecked.png",
+        "source": "E:\\VH75Demo\\app\\src\\main\\res\\drawable-hdpi\\ic_radio_unchecked.png"
+    },
+    {
+        "merged": "E:\\VH75Demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bg_btn_normal.png",
+        "source": "E:\\VH75Demo\\app\\src\\main\\res\\drawable-hdpi\\bg_btn_normal.png"
+    },
+    {
+        "merged": "E:\\VH75Demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_radio_select.png",
+        "source": "E:\\VH75Demo\\app\\src\\main\\res\\drawable-hdpi\\ic_radio_select.png"
+    },
+    {
+        "merged": "E:\\VH75Demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bg_tab_normal.9.png",
+        "source": "E:\\VH75Demo\\app\\src\\main\\res\\drawable-hdpi\\bg_tab_normal.9.png"
+    }
+]

@@ -9,6 +9,8 @@ import java.util.List;
 import java.util.Set;
 
 import lab.sodino.language.util.Strings;
+
+import android.Manifest;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
@@ -21,9 +23,14 @@ import android.content.DialogInterface.OnCancelListener;
 import android.content.DialogInterface.OnClickListener;
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.content.pm.PackageManager;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.os.Handler;
+
+import androidx.annotation.NonNull;
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
 import androidx.fragment.app.Fragment;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -112,6 +119,7 @@ public class LinkUi extends Fragment {
 	}
 	
 	public static LinkUi me;
+	private static final int REQUEST_BLUETOOTH_PERMISSIONS = 1;
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, 
 			Bundle savedInstanceState) {
@@ -140,10 +148,56 @@ public class LinkUi extends Fragment {
 		});
 		
 		updateLang();
-		
+		checkBluetoothPermissions();
 		return view;
 	}
-	
+	private void checkBluetoothPermissions() {
+		// Check if Bluetooth permissions are granted
+		if (ContextCompat.checkSelfPermission(requireContext(), Manifest.permission.BLUETOOTH) != PackageManager.PERMISSION_GRANTED ||
+				ContextCompat.checkSelfPermission(requireContext(), Manifest.permission.BLUETOOTH_ADMIN) != PackageManager.PERMISSION_GRANTED) {
+			// Request Bluetooth permissions
+			ActivityCompat.requestPermissions(requireActivity(),
+					new String[]{Manifest.permission.BLUETOOTH, Manifest.permission.BLUETOOTH_ADMIN},
+					REQUEST_BLUETOOTH_PERMISSIONS);
+		} else {
+			// Bluetooth permissions are already granted, proceed with Bluetooth operations
+			initializeBluetooth();
+		}
+	}  private void initializeBluetooth() {
+		// Initialize BluetoothAdapter
+		mBluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
+		if (mBluetoothAdapter == null) {
+			// Device does not support Bluetooth
+			// Handle the scenario accordingly
+		} else {
+			// Bluetooth is supported, proceed with Bluetooth operations
+			// Start Bluetooth discovery or perform other Bluetooth operations here
+		}
+	}
+
+	@Override
+	public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+		if (requestCode == REQUEST_BLUETOOTH_PERMISSIONS) {
+			// Check if all required permissions are granted
+			boolean allPermissionsGranted = true;
+			for (int result : grantResults) {
+				if (result != PackageManager.PERMISSION_GRANTED) {
+					allPermissionsGranted = false;
+					break;
+				}
+			}
+
+			// If all permissions are granted, initialize Bluetooth
+			if (allPermissionsGranted) {
+				initializeBluetooth();
+			} else {
+				// Handle the scenario where permissions are not granted
+				// You may inform the user or take appropriate action
+			}
+		} else {
+			super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+		}
+	}
 	private void unpairDevice(BluetoothDevice device) {
 		try {
 		    Method m = device.getClass()

@@ -1,20 +1,29 @@
 package com.vanch.vhxdemo;
 
 import lab.sodino.language.util.Strings;
+
+import android.Manifest;
 import android.app.AlertDialog;
 import android.bluetooth.BluetoothDevice;
 import android.content.DialogInterface;
 import android.content.SharedPreferences;
+import android.content.pm.PackageManager;
 import android.content.pm.PackageManager.NameNotFoundException;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
+
+import androidx.annotation.NonNull;
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
 import androidx.fragment.app.FragmentActivity;
 import androidx.fragment.app.FragmentTabHost;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.widget.TabWidget;
 import android.widget.TextView;
+import android.widget.Toast;
+
 import de.greenrobot.event.EventBus;
 
 public class MainActivity extends FragmentActivity {
@@ -22,7 +31,7 @@ public class MainActivity extends FragmentActivity {
 	public static BluetoothDevice selectedDevice;
 	public static String lang;
 	public static String lang_key = "lang";
-
+	private static final int REQUEST_ENABLE_BLUETOOTH_CONNECT = 2;
 //	TabHost mTabHost;
 	FragmentTabHost mTabHost;
 	//AndroidApkUpdater updater;
@@ -57,7 +66,7 @@ public class MainActivity extends FragmentActivity {
 //		initTabsAppearance(mTabHost.getTabWidget());
 //		updateLang();
 //	}
-	
+
 	@Override
 	protected void onCreate(Bundle arg0) {
 		super.onCreate(arg0);
@@ -105,6 +114,30 @@ public class MainActivity extends FragmentActivity {
 	if (ConfigUI.getConfigCheckUpdate(this)) {
 		updater.update();
 	}*/
+		if (ContextCompat.checkSelfPermission(this, Manifest.permission.BLUETOOTH_CONNECT)
+				!= PackageManager.PERMISSION_GRANTED) {
+			// Request BLUETOOTH_CONNECT permission
+			ActivityCompat.requestPermissions(this,
+					new String[]{Manifest.permission.BLUETOOTH_CONNECT},
+					REQUEST_ENABLE_BLUETOOTH_CONNECT);
+		} else {
+			// BLUETOOTH_CONNECT permission is already granted, proceed with your logic
+			// ...
+		}
+	}
+	@Override
+	public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+		super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+		if (requestCode == REQUEST_ENABLE_BLUETOOTH_CONNECT) {
+			if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED &&
+					grantResults[1] == PackageManager.PERMISSION_GRANTED) {
+				// Bluetooth permissions granted, proceed with your logic
+				// ...
+			} else {
+				// Bluetooth permissions denied, show a message or handle accordingly
+				Toast.makeText(this, "Bluetooth permissions are required for this app to function properly.", Toast.LENGTH_SHORT).show();
+			}
+		}
 	}
 
 	private String getPackageNamex() {

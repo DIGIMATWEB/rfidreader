@@ -1,5 +1,9 @@
 *.iml
 .gradle
+/FH75Demo/.gradle
+/FH75Demo/.idea
+/FH75Demo/build
+/FH75Demo/orijectFilesBackup
 /local.properties
 /.idea/caches
 /.idea/libraries

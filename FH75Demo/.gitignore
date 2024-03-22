@@ -6,6 +6,11 @@
 /FH75Demo/orijectFilesBackup
 /FH75Demo/app/build
 /FH75Demo/gradle
+/.gradle
+/.idea
+/build
+/projectFilesBackup
+/app/build
 /local.properties
 /.idea/caches
 /.idea/libraries

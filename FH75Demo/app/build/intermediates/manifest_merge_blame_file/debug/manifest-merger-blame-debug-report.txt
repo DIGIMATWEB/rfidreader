@@ -26,98 +26,101 @@
 15    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
 15-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:17:5-76
 15-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:17:22-73
-16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-16-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:18:5-79
-16-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:18:22-76
-17
-18    <uses-feature
-18-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:19:5-87
-19        android:name="android.hardware.bluetooth"
-19-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:19:19-60
-20        android:required="false" />
-20-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:19:61-85
-21    <uses-feature
-21-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:20:5-90
-22        android:name="android.hardware.bluetooth_le"
-22-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:20:19-63
-23        android:required="false" />
-23-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:20:64-88
-24
-25    <supports-screens
-25-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:22:5-24:37
-26        android:anyDensity="true"
-26-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:23:9-34
-27        android:resizeable="true" />
+16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+16-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:18:5-81
+16-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:18:22-78
+17    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+17-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:19:5-79
+17-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:19:22-76
+18
+19    <uses-feature
+19-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:20:5-87
+20        android:name="android.hardware.bluetooth"
+20-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:20:19-60
+21        android:required="false" />
+21-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:20:61-85
+22    <uses-feature
+22-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:21:5-90
+23        android:name="android.hardware.bluetooth_le"
+23-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:21:19-63
+24        android:required="false" />
+24-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:21:64-88
+25
+26    <supports-screens
+26-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:23:5-25:37
+27        android:anyDensity="true"
 27-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:24:9-34
-28
-29    <uses-permission android:name="android.permission.VIBRATE" />
-29-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:26:5-66
-29-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:26:22-63
-30    <uses-permission android:name="android.permission.READ_PROFILE" />
-30-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:27:5-71
-30-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:27:22-68
-31    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-31-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:28:5-79
-31-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:28:22-76
-32    <uses-permission android:name="android.permission.INTERNET" />
-32-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:29:5-67
-32-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:29:22-64
-33    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-33-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:30:5-80
-33-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:30:22-77
-34    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
-34-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:31:5-75
-34-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:31:22-72
-35    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-35-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:32:5-81
-35-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:32:22-78
-36    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
-36-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:33:5-34:47
-36-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:33:22-81
-37
-38    <application
-38-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:36:5-56:19
-39        android:allowBackup="true"
-39-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:37:9-35
-40        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-40-->[androidx.core:core:1.0.0] /Users/newlandios/.gradle/caches/transforms-3/1a13e9093b391f2d86e34d05488e1a8f/transformed/core-1.0.0/AndroidManifest.xml:22:18-86
-41        android:debuggable="true"
-42        android:extractNativeLibs="false"
-43        android:icon="@drawable/ic_launcher"
-43-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:38:9-45
-44        android:label="@string/app_name"
-44-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:39:9-41
-45        android:testOnly="true"
-46        android:theme="@style/AppTheme" >
-46-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:40:9-40
-47        <activity
-47-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:41:9-50:20
-48            android:name="com.vanch.vhxdemo.MainActivity"
-48-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:42:13-58
-49            android:exported="true"
-49-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:43:13-36
-50            android:label="@string/app_name" >
-50-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:44:13-45
-51            <intent-filter>
-51-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:45:13-49:29
-52                <action android:name="android.intent.action.MAIN" />
-52-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:46:17-69
-52-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:46:25-66
-53
-54                <category android:name="android.intent.category.LAUNCHER" />
-54-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:48:17-77
-54-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:48:27-74
-55            </intent-filter>
-56        </activity>
-57        <activity
-57-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:51:9-55:20
-58            android:name="com.vanch.vhxdemo.ConfigPreference"
-58-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:52:13-62
-59            android:exported="true"
-59-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:53:13-36
-60            android:label="@string/title_activity_config_freference" >
-60-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:54:13-69
-61        </activity>
-62    </application>
-63
-64</manifest>
+28        android:resizeable="true" />
+28-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:25:9-34
+29
+30    <uses-permission android:name="android.permission.VIBRATE" />
+30-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:27:5-66
+30-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:27:22-63
+31    <uses-permission android:name="android.permission.READ_PROFILE" />
+31-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:28:5-71
+31-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:28:22-68
+32    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+32-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:29:5-79
+32-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:29:22-76
+33    <uses-permission android:name="android.permission.INTERNET" />
+33-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:30:5-67
+33-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:30:22-64
+34    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+34-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:31:5-80
+34-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:31:22-77
+35    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+35-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:32:5-75
+35-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:32:22-72
+36    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+36-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:33:5-81
+36-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:33:22-78
+37    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+37-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:34:5-35:47
+37-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:34:22-81
+38
+39    <application
+39-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:37:5-57:19
+40        android:allowBackup="true"
+40-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:38:9-35
+41        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+41-->[androidx.core:core:1.0.0] /Users/newlandios/.gradle/caches/transforms-3/1a13e9093b391f2d86e34d05488e1a8f/transformed/core-1.0.0/AndroidManifest.xml:22:18-86
+42        android:debuggable="true"
+43        android:extractNativeLibs="false"
+44        android:icon="@drawable/ic_launcher"
+44-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:39:9-45
+45        android:label="@string/app_name"
+45-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:40:9-41
+46        android:testOnly="true"
+47        android:theme="@style/AppTheme" >
+47-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:41:9-40
+48        <activity
+48-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:42:9-51:20
+49            android:name="com.vanch.vhxdemo.MainActivity"
+49-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:43:13-58
+50            android:exported="true"
+50-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:44:13-36
+51            android:label="@string/app_name" >
+51-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:45:13-45
+52            <intent-filter>
+52-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:46:13-50:29
+53                <action android:name="android.intent.action.MAIN" />
+53-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:47:17-69
+53-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:47:25-66
+54
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:49:17-77
+55-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:49:27-74
+56            </intent-filter>
+57        </activity>
+58        <activity
+58-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:52:9-56:20
+59            android:name="com.vanch.vhxdemo.ConfigPreference"
+59-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:53:13-62
+60            android:exported="true"
+60-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:54:13-36
+61            android:label="@string/title_activity_config_freference" >
+61-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:55:13-69
+62        </activity>
+63    </application>
+64
+65</manifest>

@@ -1,5 +1,3 @@
-de/greenrobot/event/SubscriberMethodFinder.java
- de.greenrobot.event.SubscriberMethodFinder
 com/lg/updater/AndroidApkUpdater.java
  com.lg.updater.AndroidApkUpdater
  com.lg.updater.AndroidApkUpdater$1
@@ -13,10 +11,14 @@ com/lg/updater/AndroidApkUpdater.java
  com.lg.updater.AndroidApkUpdater$8
  com.lg.updater.AndroidApkUpdater$9
  com.lg.updater.AndroidApkUpdater$Version
+com/vanch/vhxdemo/requestNewlandapps/interactor/interactorcheckRFID.java
+ com.vanch.vhxdemo.requestNewlandapps.interactor.interactorcheckRFID
 com/vanch/vhxdemo/HandsetParam.java
  com.vanch.vhxdemo.HandsetParam
 de/greenrobot/event/PendingPostQueue.java
  de.greenrobot.event.PendingPostQueue
+com/vanch/vhxdemo/requestNewlandapps/model/responseRfid.java
+ com.vanch.vhxdemo.requestNewlandapps.model.responseRfid
 com/vanch/vhxdemo/helper/MyAlertDialogFragment.java
  com.vanch.vhxdemo.helper.MyAlertDialogFragment
 de/greenrobot/event/EventBusException.java
@@ -25,22 +27,14 @@ de/greenrobot/event/util/ExceptionToResourceMapping.java
  de.greenrobot.event.util.ExceptionToResourceMapping
 de/greenrobot/event/ThreadMode.java
  de.greenrobot.event.ThreadMode
-com/vanch/vhxdemo/Epc.java
- com.vanch.vhxdemo.Epc
+com/vanch/vhxdemo/requestNewlandapps/presenter/presenterNewlandsImpl.java
+ com.vanch.vhxdemo.requestNewlandapps.presenter.presenterNewlandsImpl
 com/vanch/vhxdemo/BuildConfig.java
  com.vanch.vhxdemo.BuildConfig
 de/greenrobot/event/SubscriberMethod.java
  de.greenrobot.event.SubscriberMethod
-com/vanch/vhxdemo/TimeoutException.java
- com.vanch.vhxdemo.TimeoutException
 de/greenrobot/event/util/ThrowableFailureEvent.java
  de.greenrobot.event.util.ThrowableFailureEvent
-de/greenrobot/event/util/ErrorDialogManager.java
- de.greenrobot.event.util.ErrorDialogManager
- de.greenrobot.event.util.ErrorDialogManager$HoneycombManagerFragment
- de.greenrobot.event.util.ErrorDialogManager$SupportManagerFragment
-de/greenrobot/event/PendingPost.java
- de.greenrobot.event.PendingPost
 lab/sodino/language/util/Strings.java
  lab.sodino.language.util.Strings
 com/vanch/vhxdemo/Status.java
@@ -51,26 +45,6 @@ com/vanch/vhxdemo/helper/Utility.java
  com.vanch.vhxdemo.helper.Utility$2
 de/greenrobot/event/NoSubscriberEvent.java
  de.greenrobot.event.NoSubscriberEvent
-com/vanch/vhxdemo/AccessUI.java
- com.vanch.vhxdemo.AccessUI
- com.vanch.vhxdemo.AccessUI$1
- com.vanch.vhxdemo.AccessUI$2
- com.vanch.vhxdemo.AccessUI$3
- com.vanch.vhxdemo.AccessUI$4
- com.vanch.vhxdemo.AccessUI$4$1
- com.vanch.vhxdemo.AccessUI$5
- com.vanch.vhxdemo.AccessUI$5$1
- com.vanch.vhxdemo.AccessUI$6
- com.vanch.vhxdemo.AccessUI$AccessEvent
- com.vanch.vhxdemo.AccessUI$EpcSelectedEvent
- com.vanch.vhxdemo.AccessUI$MaskEvent
- com.vanch.vhxdemo.AccessUI$StatusChangeEvent
-com/vanch/vhxdemo/HandsetVersion.java
- com.vanch.vhxdemo.HandsetVersion
-de/greenrobot/event/util/ErrorDialogFragmentFactory.java
- de.greenrobot.event.util.ErrorDialogFragmentFactory
- de.greenrobot.event.util.ErrorDialogFragmentFactory$Honeycomb
- de.greenrobot.event.util.ErrorDialogFragmentFactory$Support
 de/greenrobot/event/EventBus.java
  de.greenrobot.event.EventBus
  de.greenrobot.event.EventBus$1
@@ -103,6 +77,93 @@ com/vanch/vhxdemo/LinkUi.java
  com.vanch.vhxdemo.LinkUi$FreshList
 de/greenrobot/event/BackgroundPoster.java
  de.greenrobot.event.BackgroundPoster
+com/vanch/vhxdemo/helper/Test.java
+ com.vanch.vhxdemo.helper.Test
+com/vanch/vhxdemo/MainActivity.java
+ com.vanch.vhxdemo.MainActivity
+ com.vanch.vhxdemo.MainActivity$1
+ com.vanch.vhxdemo.MainActivity$2
+com/vanch/vhxdemo/helper/BluetoothHelper.java
+ com.vanch.vhxdemo.helper.BluetoothHelper
+de/greenrobot/event/AsyncPoster.java
+ de.greenrobot.event.AsyncPoster
+de/greenrobot/event/SubscriberExceptionEvent.java
+ de.greenrobot.event.SubscriberExceptionEvent
+com/vanch/vhxdemo/InventoryUI.java
+ com.vanch.vhxdemo.InventoryUI
+ com.vanch.vhxdemo.InventoryUI$1
+ com.vanch.vhxdemo.InventoryUI$2
+ com.vanch.vhxdemo.InventoryUI$3
+ com.vanch.vhxdemo.InventoryUI$4
+ com.vanch.vhxdemo.InventoryUI$4$1
+ com.vanch.vhxdemo.InventoryUI$5
+ com.vanch.vhxdemo.InventoryUI$5$1
+ com.vanch.vhxdemo.InventoryUI$6
+ com.vanch.vhxdemo.InventoryUI$EpcInventoryEvent
+ com.vanch.vhxdemo.InventoryUI$IdListAdaptor
+ com.vanch.vhxdemo.InventoryUI$InventoryEvent
+ com.vanch.vhxdemo.InventoryUI$InventoryTerminal
+ com.vanch.vhxdemo.InventoryUI$InventoryThread
+ com.vanch.vhxdemo.InventoryUI$TimeoutEvent
+com/vanch/vhxdemo/retrofit/RetrofitEndPoints.java
+ com.vanch.vhxdemo.retrofit.RetrofitEndPoints
+com/vanch/vhxdemo/ConfigUI.java
+ com.vanch.vhxdemo.ConfigUI
+ com.vanch.vhxdemo.ConfigUI$1
+ com.vanch.vhxdemo.ConfigUI$2
+ com.vanch.vhxdemo.ConfigUI$3
+ com.vanch.vhxdemo.ConfigUI$4
+ com.vanch.vhxdemo.ConfigUI$5
+ com.vanch.vhxdemo.ConfigUI$6
+ com.vanch.vhxdemo.ConfigUI$7
+ com.vanch.vhxdemo.ConfigUI$8
+ com.vanch.vhxdemo.ConfigUI$9
+ com.vanch.vhxdemo.ConfigUI$LangChanged
+com/vanch/vhxdemo/ConfigParam.java
+ com.vanch.vhxdemo.ConfigParam
+com/vanch/vhxdemo/requestNewlandapps/model/requestRfidLoc.java
+ com.vanch.vhxdemo.requestNewlandapps.model.requestRfidLoc
+de/greenrobot/event/SubscriberMethodFinder.java
+ de.greenrobot.event.SubscriberMethodFinder
+com/vanch/vhxdemo/Epc.java
+ com.vanch.vhxdemo.Epc
+com/vanch/vhxdemo/requestNewlandapps/presenter/presenterNewlands.java
+ com.vanch.vhxdemo.requestNewlandapps.presenter.presenterNewlands
+com/vanch/vhxdemo/retrofit/RetrofitClient.java
+ com.vanch.vhxdemo.retrofit.RetrofitClient
+com/vanch/vhxdemo/TimeoutException.java
+ com.vanch.vhxdemo.TimeoutException
+de/greenrobot/event/util/ErrorDialogManager.java
+ de.greenrobot.event.util.ErrorDialogManager
+ de.greenrobot.event.util.ErrorDialogManager$HoneycombManagerFragment
+ de.greenrobot.event.util.ErrorDialogManager$SupportManagerFragment
+de/greenrobot/event/PendingPost.java
+ de.greenrobot.event.PendingPost
+com/vanch/vhxdemo/requestNewlandapps/interactor/interactorcheckRFIDImpl.java
+ com.vanch.vhxdemo.requestNewlandapps.interactor.interactorcheckRFIDImpl
+ com.vanch.vhxdemo.requestNewlandapps.interactor.interactorcheckRFIDImpl$1
+com/vanch/vhxdemo/AccessUI.java
+ com.vanch.vhxdemo.AccessUI
+ com.vanch.vhxdemo.AccessUI$1
+ com.vanch.vhxdemo.AccessUI$2
+ com.vanch.vhxdemo.AccessUI$3
+ com.vanch.vhxdemo.AccessUI$4
+ com.vanch.vhxdemo.AccessUI$4$1
+ com.vanch.vhxdemo.AccessUI$5
+ com.vanch.vhxdemo.AccessUI$5$1
+ com.vanch.vhxdemo.AccessUI$6
+ com.vanch.vhxdemo.AccessUI$AccessEvent
+ com.vanch.vhxdemo.AccessUI$EpcSelectedEvent
+ com.vanch.vhxdemo.AccessUI$MaskEvent
+ com.vanch.vhxdemo.AccessUI$StatusChangeEvent
+com/vanch/vhxdemo/requestNewlandapps/util/serviceRFID.java
+ com.vanch.vhxdemo.requestNewlandapps.util.serviceRFID
+com/vanch/vhxdemo/HandsetVersion.java
+ com.vanch.vhxdemo.HandsetVersion
+de/greenrobot/event/util/ErrorDialogFragmentFactory.java
+ de.greenrobot.event.util.ErrorDialogFragmentFactory
+ de.greenrobot.event.util.ErrorDialogFragmentFactory$Honeycomb
+ de.greenrobot.event.util.ErrorDialogFragmentFactory$Support
 com/vanch/vhxdemo/ConfigPreference.java
  com.vanch.vhxdemo.ConfigPreference
 de/greenrobot/event/util/ErrorDialogFragments.java
@@ -118,52 +179,17 @@ com/vanch/vhxdemo/VH73Device.java
  com.vanch.vhxdemo.VH73Device$ReadTimerStop
  com.vanch.vhxdemo.VH73Device$RecordData
  com.vanch.vhxdemo.VH73Device$SendCommandSuccess
+com/vanch/vhxdemo/retrofit/retrofitConstants.java
+ com.vanch.vhxdemo.retrofit.retrofitConstants
+com/vanch/vhxdemo/requestNewlandapps/View/viewRFIDImpl.java
+ com.vanch.vhxdemo.requestNewlandapps.View.viewRFIDImpl
 com/vanch/vhxdemo/Head.java
  com.vanch.vhxdemo.Head
-com/vanch/vhxdemo/helper/Test.java
- com.vanch.vhxdemo.helper.Test
-com/vanch/vhxdemo/MainActivity.java
- com.vanch.vhxdemo.MainActivity
- com.vanch.vhxdemo.MainActivity$1
- com.vanch.vhxdemo.MainActivity$2
-com/vanch/vhxdemo/helper/BluetoothHelper.java
- com.vanch.vhxdemo.helper.BluetoothHelper
-de/greenrobot/event/AsyncPoster.java
- de.greenrobot.event.AsyncPoster
-de/greenrobot/event/SubscriberExceptionEvent.java
- de.greenrobot.event.SubscriberExceptionEvent
+com/vanch/vhxdemo/requestNewlandapps/model/dataRfidResponse.java
+ com.vanch.vhxdemo.requestNewlandapps.model.dataRfidResponse
 de/greenrobot/event/util/ErrorDialogConfig.java
  de.greenrobot.event.util.ErrorDialogConfig
-com/vanch/vhxdemo/InventoryUI.java
- com.vanch.vhxdemo.InventoryUI
- com.vanch.vhxdemo.InventoryUI$1
- com.vanch.vhxdemo.InventoryUI$2
- com.vanch.vhxdemo.InventoryUI$3
- com.vanch.vhxdemo.InventoryUI$3$1
- com.vanch.vhxdemo.InventoryUI$4
- com.vanch.vhxdemo.InventoryUI$4$1
- com.vanch.vhxdemo.InventoryUI$5
- com.vanch.vhxdemo.InventoryUI$EpcInventoryEvent
- com.vanch.vhxdemo.InventoryUI$IdListAdaptor
- com.vanch.vhxdemo.InventoryUI$InventoryEvent
- com.vanch.vhxdemo.InventoryUI$InventoryTerminal
- com.vanch.vhxdemo.InventoryUI$InventoryThread
- com.vanch.vhxdemo.InventoryUI$TimeoutEvent
 de/greenrobot/event/HandlerPoster.java
  de.greenrobot.event.HandlerPoster
 com/vanch/vhxdemo/CommandCode.java
  com.vanch.vhxdemo.CommandCode
-com/vanch/vhxdemo/ConfigUI.java
- com.vanch.vhxdemo.ConfigUI
- com.vanch.vhxdemo.ConfigUI$1
- com.vanch.vhxdemo.ConfigUI$2
- com.vanch.vhxdemo.ConfigUI$3
- com.vanch.vhxdemo.ConfigUI$4
- com.vanch.vhxdemo.ConfigUI$5
- com.vanch.vhxdemo.ConfigUI$6
- com.vanch.vhxdemo.ConfigUI$7
- com.vanch.vhxdemo.ConfigUI$8
- com.vanch.vhxdemo.ConfigUI$9
- com.vanch.vhxdemo.ConfigUI$LangChanged
-com/vanch/vhxdemo/ConfigParam.java
- com.vanch.vhxdemo.ConfigParam

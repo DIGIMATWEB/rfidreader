@@ -79,10 +79,10 @@ public class MainActivity extends FragmentActivity {
             LinkUi.class, null);
     mTabHost.addTab(mTabHost.newTabSpec("inventory").setIndicator("Inventory"),
         InventoryUI.class, null);
-   // mTabHost.addTab(mTabHost.newTabSpec("access").setIndicator("Access"),
-       // AccessUI.class, null);
-  //  mTabHost.addTab(mTabHost.newTabSpec("ocnfig").setIndicator("Config"),
-        //ConfigUI.class, null);
+    mTabHost.addTab(mTabHost.newTabSpec("access").setIndicator("Access"),
+        AccessUI.class, null);
+    mTabHost.addTab(mTabHost.newTabSpec("ocnfig").setIndicator("Config"),
+        ConfigUI.class, null);
 	initTabsAppearance(mTabHost.getTabWidget());
 	updateLang();
 
@@ -186,8 +186,8 @@ public class MainActivity extends FragmentActivity {
 	private void updateLang() {
 		setTabTitle(0, Strings.getString(R.string.link_tab));
 		setTabTitle(1, Strings.getString(R.string.inventory_tab));
-//		setTabTitle(2, Strings.getString(R.string.access_tab));
-//		setTabTitle(3, Strings.getString(R.string.config_tab));
+		setTabTitle(2, Strings.getString(R.string.access_tab));
+		setTabTitle(3, Strings.getString(R.string.config_tab));
 	}
 
 	private void setTabTitle(int idx, String title) {

@@ -1,8 +1,11 @@
-#Thu Mar 21 19:00:49 CST 2024
+#Fri Mar 22 14:26:55 CST 2024
 path.4=12/classes.dex
 path.3=10/classes.dex
 path.2=1/classes.dex
 path.1=0/classes.dex
+renamed.8=classes9.dex
+path.8=5/classes.dex
+path.7=3/classes.dex
 path.6=15/classes.dex
 path.5=13/classes.dex
 path.0=classes.dex
@@ -15,7 +18,10 @@ renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
+renamed.7=classes8.dex
+base.8=/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/build/intermediates/dex/debug/mergeProjectDexDebug/5/classes.dex
 renamed.6=classes7.dex
+base.7=/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/build/intermediates/dex/debug/mergeProjectDexDebug/3/classes.dex
 renamed.5=classes6.dex
 base.6=/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/build/intermediates/dex/debug/mergeProjectDexDebug/15/classes.dex
 renamed.4=classes5.dex

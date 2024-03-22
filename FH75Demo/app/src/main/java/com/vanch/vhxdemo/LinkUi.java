@@ -154,10 +154,11 @@ public class LinkUi extends Fragment {
 	private void checkBluetoothPermissions() {
 		// Check if Bluetooth permissions are granted
 		if (ContextCompat.checkSelfPermission(requireContext(), Manifest.permission.BLUETOOTH) != PackageManager.PERMISSION_GRANTED ||
-				ContextCompat.checkSelfPermission(requireContext(), Manifest.permission.BLUETOOTH_ADMIN) != PackageManager.PERMISSION_GRANTED) {
+				ContextCompat.checkSelfPermission(requireContext(), Manifest.permission.BLUETOOTH_ADMIN) != PackageManager.PERMISSION_GRANTED ||
+				ContextCompat.checkSelfPermission(requireContext(), Manifest.permission.BLUETOOTH_SCAN) != PackageManager.PERMISSION_GRANTED) {
 			// Request Bluetooth permissions
 			ActivityCompat.requestPermissions(requireActivity(),
-					new String[]{Manifest.permission.BLUETOOTH, Manifest.permission.BLUETOOTH_ADMIN},
+					new String[]{Manifest.permission.BLUETOOTH, Manifest.permission.BLUETOOTH_ADMIN, Manifest.permission.BLUETOOTH_SCAN},
 					REQUEST_BLUETOOTH_PERMISSIONS);
 		} else {
 			// Bluetooth permissions are already granted, proceed with Bluetooth operations

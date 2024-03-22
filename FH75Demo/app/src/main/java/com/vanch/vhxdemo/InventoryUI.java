@@ -30,6 +30,7 @@ import android.media.RingtoneManager;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
+import android.os.Handler;
 import android.os.Looper;
 import android.os.Vibrator;
 
@@ -327,6 +328,14 @@ public class InventoryUI extends Fragment implements OnItemLongClickListener, vi
 								.getString(R.string.msg_inventory_stoping));
 						;
 						progressDialog.show();
+						new Handler().postDelayed(new Runnable() {
+							@Override
+							public void run() {
+								if (progressDialog != null && progressDialog.isShowing()) {
+									progressDialog.dismiss();
+								}
+							}
+						}, 5000);
 					}
 				} else {
 					Utility.WarningAlertDialg(getActivity(),

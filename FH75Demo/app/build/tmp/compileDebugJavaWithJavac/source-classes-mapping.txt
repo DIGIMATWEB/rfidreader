@@ -79,10 +79,8 @@ de/greenrobot/event/BackgroundPoster.java
  de.greenrobot.event.BackgroundPoster
 com/vanch/vhxdemo/helper/Test.java
  com.vanch.vhxdemo.helper.Test
-com/vanch/vhxdemo/MainActivity.java
- com.vanch.vhxdemo.MainActivity
- com.vanch.vhxdemo.MainActivity$1
- com.vanch.vhxdemo.MainActivity$2
+de/greenrobot/event/HandlerPoster.java
+ de.greenrobot.event.HandlerPoster
 com/vanch/vhxdemo/helper/BluetoothHelper.java
  com.vanch.vhxdemo.helper.BluetoothHelper
 de/greenrobot/event/AsyncPoster.java
@@ -94,6 +92,7 @@ com/vanch/vhxdemo/InventoryUI.java
  com.vanch.vhxdemo.InventoryUI$1
  com.vanch.vhxdemo.InventoryUI$2
  com.vanch.vhxdemo.InventoryUI$3
+ com.vanch.vhxdemo.InventoryUI$3$1
  com.vanch.vhxdemo.InventoryUI$4
  com.vanch.vhxdemo.InventoryUI$4$1
  com.vanch.vhxdemo.InventoryUI$5
@@ -107,18 +106,8 @@ com/vanch/vhxdemo/InventoryUI.java
  com.vanch.vhxdemo.InventoryUI$TimeoutEvent
 com/vanch/vhxdemo/retrofit/RetrofitEndPoints.java
  com.vanch.vhxdemo.retrofit.RetrofitEndPoints
-com/vanch/vhxdemo/ConfigUI.java
- com.vanch.vhxdemo.ConfigUI
- com.vanch.vhxdemo.ConfigUI$1
- com.vanch.vhxdemo.ConfigUI$2
- com.vanch.vhxdemo.ConfigUI$3
- com.vanch.vhxdemo.ConfigUI$4
- com.vanch.vhxdemo.ConfigUI$5
- com.vanch.vhxdemo.ConfigUI$6
- com.vanch.vhxdemo.ConfigUI$7
- com.vanch.vhxdemo.ConfigUI$8
- com.vanch.vhxdemo.ConfigUI$9
- com.vanch.vhxdemo.ConfigUI$LangChanged
+com/vanch/vhxdemo/CommandCode.java
+ com.vanch.vhxdemo.CommandCode
 com/vanch/vhxdemo/ConfigParam.java
  com.vanch.vhxdemo.ConfigParam
 com/vanch/vhxdemo/requestNewlandapps/model/requestRfidLoc.java
@@ -189,7 +178,19 @@ com/vanch/vhxdemo/requestNewlandapps/model/dataRfidResponse.java
  com.vanch.vhxdemo.requestNewlandapps.model.dataRfidResponse
 de/greenrobot/event/util/ErrorDialogConfig.java
  de.greenrobot.event.util.ErrorDialogConfig
-de/greenrobot/event/HandlerPoster.java
- de.greenrobot.event.HandlerPoster
-com/vanch/vhxdemo/CommandCode.java
- com.vanch.vhxdemo.CommandCode
+com/vanch/vhxdemo/ConfigUI.java
+ com.vanch.vhxdemo.ConfigUI
+ com.vanch.vhxdemo.ConfigUI$1
+ com.vanch.vhxdemo.ConfigUI$2
+ com.vanch.vhxdemo.ConfigUI$3
+ com.vanch.vhxdemo.ConfigUI$4
+ com.vanch.vhxdemo.ConfigUI$5
+ com.vanch.vhxdemo.ConfigUI$6
+ com.vanch.vhxdemo.ConfigUI$7
+ com.vanch.vhxdemo.ConfigUI$8
+ com.vanch.vhxdemo.ConfigUI$9
+ com.vanch.vhxdemo.ConfigUI$LangChanged
+com/vanch/vhxdemo/MainActivity.java
+ com.vanch.vhxdemo.MainActivity
+ com.vanch.vhxdemo.MainActivity$1
+ com.vanch.vhxdemo.MainActivity$2

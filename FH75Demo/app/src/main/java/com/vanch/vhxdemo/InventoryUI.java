@@ -478,10 +478,10 @@ public class InventoryUI extends Fragment implements OnItemLongClickListener {
 	}
 
 	private void logScannedTagIDs(ArrayList<byte[]> epcs) {
-		StringBuilder sb = new StringBuilder("Recently scanned tag IDs: ");
+		StringBuilder sb = new StringBuilder("");//("Recently scanned tag IDs: ");
 		for (byte[] bs : epcs) {
 			String string = Utility.bytes2HexString(bs);
-			sb.append(string).append(", ");
+			sb.append(string).append("");//(", ");
 		}
 		Log.i("Scanned", sb.toString());
 	}

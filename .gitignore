@@ -1,7 +1,10 @@
 *.iml
 .gradle
 /FH75Demo/.gradle
+/.gradle
 /FH75Demo/.idea
+/.idea
+/build
 /FH75Demo/build
 /FH75Demo/orijectFilesBackup
 /FH75Demo/app/build

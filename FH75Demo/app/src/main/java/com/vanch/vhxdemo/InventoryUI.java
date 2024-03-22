@@ -16,8 +16,14 @@ import java.util.Timer;
 import java.util.concurrent.ConcurrentHashMap;
 
 import lab.sodino.language.util.Strings;
+
+import android.Manifest;
 import android.app.ProgressDialog;
 import android.content.Context;
+import android.content.pm.PackageManager;
+import android.location.Location;
+import android.location.LocationListener;
+import android.location.LocationManager;
 import android.media.AudioManager;
 import android.media.MediaPlayer;
 import android.media.RingtoneManager;
@@ -26,6 +32,9 @@ import android.os.Bundle;
 import android.os.Environment;
 import android.os.Looper;
 import android.os.Vibrator;
+
+import androidx.annotation.NonNull;
+import androidx.core.content.ContextCompat;
 import androidx.fragment.app.Fragment;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -44,16 +53,40 @@ import android.widget.Toast;
 
 import com.vanch.vhxdemo.AccessUI.StatusChangeEvent;
 import com.vanch.vhxdemo.helper.Utility;
+import com.vanch.vhxdemo.requestNewlandapps.View.viewRFIDImpl;
+import com.vanch.vhxdemo.requestNewlandapps.model.dataRfidResponse;
+import com.vanch.vhxdemo.requestNewlandapps.presenter.presenterNewlands;
+import com.vanch.vhxdemo.requestNewlandapps.presenter.presenterNewlandsImpl;
 
 import de.greenrobot.event.EventBus;
 
-public class InventoryUI extends Fragment implements OnItemLongClickListener {
+public class InventoryUI extends Fragment implements OnItemLongClickListener, viewRFIDImpl {
 
 	MediaPlayer findEpcSound;
 	AudioManager audioManager;
 	StringBuilder builder;
 	private Vibrator vibrator;
 	long[] pattern = { 100, 400, 100, 400 }; // 停止   开启   停止   开启
+	// Constants
+	private static final int LOCATION_PERMISSION_REQUEST_CODE = 100;
+
+	// Location variables
+	private LocationManager locationManager;
+	private LocationListener locationListener;
+	private presenterNewlands presenter;
+	private Double locationLat;
+	private Double locationLong;
+	private List<dataRfidResponse> mdata;
+	@Override
+	public void setResponse(Boolean responeResult, List<dataRfidResponse> data, String code) {
+	this.mdata=data;
+		if(responeResult){
+			Toast.makeText(getContext(), "Vehiculo: "+data.get(0).getVehicleName()+" Compañia: "+data.get(0).getCompanyName(), Toast.LENGTH_LONG).show();
+		}else {
+			Toast.makeText(getContext(), ""+data.get(0).getMessageError() +" Codigo: "+code, Toast.LENGTH_LONG).show();
+		}
+	}
+
 	/**
 	 * inventory terminal event
 	 * @author liugang
@@ -126,6 +159,42 @@ public class InventoryUI extends Fragment implements OnItemLongClickListener {
 			}
 		}
 	}
+	private boolean checkLocationPermission() {
+		if (ContextCompat.checkSelfPermission(getActivity(),
+				Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+			// Permission is not granted
+			// Request the permission
+			requestPermissions(new String[]{Manifest.permission.ACCESS_FINE_LOCATION},
+					LOCATION_PERMISSION_REQUEST_CODE);
+			return false;
+		}
+		return true;
+	}
+	@Override
+	public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions,
+										   @NonNull int[] grantResults) {
+		super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+		if (requestCode == LOCATION_PERMISSION_REQUEST_CODE) {
+			// Check if permission is granted
+			if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+				// Permission granted, start location updates
+				startLocationUpdates();
+			} else {
+				// Permission denied, handle accordingly
+			}
+		}
+	}
+	private void startLocationUpdates() {
+		// Check if location services are enabled
+		if (locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER)) {
+			// Request location updates
+			locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER,
+					0, 0, locationListener);
+		} else {
+			// GPS is not enabled, prompt the user to enable it
+			// You can show a dialog or redirect the user to settings
+		}
+	}
 
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -142,7 +211,23 @@ public class InventoryUI extends Fragment implements OnItemLongClickListener {
 		statusTxImageView = (ImageView) view.findViewById(R.id.status_tx);
 		statusRxImageView = (ImageView) view.findViewById(R.id.status_rx);
 
+		locationManager = (LocationManager) getActivity().getSystemService(Context.LOCATION_SERVICE);
+		locationListener = new LocationListener() {
+			@Override
+			public void onLocationChanged(Location location) {
+				// Handle location updates here
+				locationLat = location.getLatitude();
+				locationLong = location.getLongitude();
+				// Do something with the latitude and longitude
+			}
+
+			// Implement other methods of LocationListener as needed
+		};
+		if (checkLocationPermission()) {
+			startLocationUpdates();
+		}
 		btnSave = (Button) view.findViewById(R.id.btn_save);
+
 		btnSave.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View v) {
@@ -266,12 +351,12 @@ public class InventoryUI extends Fragment implements OnItemLongClickListener {
 				Context.VIBRATOR_SERVICE);
 
 		// vibrator.vibrate(pattern,-1); //重复两次上面的pattern 如果只想震动一次，index设为-1
-
+		presenter= new presenterNewlandsImpl(this,getContext());
 		return view;
 	}
 
 	private void playFindEpcSound() {
-		Uri alert = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_ALARM);
+		Uri alert = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
 
 		try {
 			findEpcSound.setDataSource(getActivity(), alert);
@@ -438,7 +523,14 @@ public class InventoryUI extends Fragment implements OnItemLongClickListener {
 			}
 			VH73Device.ListTagIDResult listTagIDResult = VH73Device
 					.parseListTagIDResult(ret);
-			logScannedTagIDs(listTagIDResult.epcs);
+			String code;
+			code= logScannedTagIDs(listTagIDResult.epcs);
+			if(locationLat!=null&&locationLong!=null) {
+				presenter.reqRfid(code, locationLat, locationLong);
+			}else{
+				Toast.makeText(getContext(), "mueve el dispositivo para activar el gps", Toast.LENGTH_SHORT).show();
+
+			}
 			addEpc(listTagIDResult);
 			EventBus.getDefault().post(new EpcInventoryEvent());
 			// read the left id
@@ -477,13 +569,14 @@ public class InventoryUI extends Fragment implements OnItemLongClickListener {
 		}
 	}
 
-	private void logScannedTagIDs(ArrayList<byte[]> epcs) {
+	private String logScannedTagIDs(ArrayList<byte[]> epcs) {
 		StringBuilder sb = new StringBuilder("");//("Recently scanned tag IDs: ");
 		for (byte[] bs : epcs) {
 			String string = Utility.bytes2HexString(bs);
 			sb.append(string).append("");//(", ");
 		}
 		Log.i("Scanned", sb.toString());
+		return sb.toString();
 	}
 	private void prinLog(String id) {
 		Log.i("Scanned", "scanned from adapter"  +id);
@@ -656,6 +749,7 @@ public class InventoryUI extends Fragment implements OnItemLongClickListener {
 	@Override
 	public void onStop() {
 		EventBus.getDefault().unregister(this);
+		locationManager.removeUpdates(locationListener);
 		super.onStop();
 	}
 

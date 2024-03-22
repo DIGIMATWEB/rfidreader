@@ -1,4 +1,4 @@
-#Wed Mar 20 00:52:54 CST 2024
+#Thu Mar 21 19:00:49 CST 2024
 path.4=12/classes.dex
 path.3=10/classes.dex
 path.2=1/classes.dex
@@ -6,17 +6,17 @@ path.1=0/classes.dex
 path.6=15/classes.dex
 path.5=13/classes.dex
 path.0=classes.dex
-base.4=/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/build/intermediates/dex/debug/mergeProjectDexDebug/12/classes.dex
-base.3=/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/build/intermediates/dex/debug/mergeProjectDexDebug/10/classes.dex
-base.2=/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/build/intermediates/dex/debug/mergeProjectDexDebug/1/classes.dex
-base.1=/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
-base.0=/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+base.4=/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/build/intermediates/dex/debug/mergeProjectDexDebug/12/classes.dex
+base.3=/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/build/intermediates/dex/debug/mergeProjectDexDebug/10/classes.dex
+base.2=/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/build/intermediates/dex/debug/mergeProjectDexDebug/1/classes.dex
+base.1=/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+base.0=/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
 renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
 renamed.6=classes7.dex
 renamed.5=classes6.dex
-base.6=/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/build/intermediates/dex/debug/mergeProjectDexDebug/15/classes.dex
+base.6=/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/build/intermediates/dex/debug/mergeProjectDexDebug/15/classes.dex
 renamed.4=classes5.dex
-base.5=/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/build/intermediates/dex/debug/mergeProjectDexDebug/13/classes.dex
+base.5=/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/build/intermediates/dex/debug/mergeProjectDexDebug/13/classes.dex

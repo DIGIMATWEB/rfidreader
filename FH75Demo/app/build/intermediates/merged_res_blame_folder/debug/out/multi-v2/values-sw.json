@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw/values-sw.xml",
+            "outputFile": "/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw/values-sw.xml",
             "map": [
                 {
-                    "source": "/Users/digimat-interactive/.gradle/caches/transforms-3/1a13e9093b391f2d86e34d05488e1a8f/transformed/core-1.0.0/res/values-sw/values-sw.xml",
+                    "source": "/Users/newlandios/.gradle/caches/transforms-3/1a13e9093b391f2d86e34d05488e1a8f/transformed/core-1.0.0/res/values-sw/values-sw.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

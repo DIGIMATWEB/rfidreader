@@ -5,94 +5,119 @@
 5    android:versionName="1.0.18" >
 6
 7    <uses-sdk
-7-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:8:5-10:41
+7-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:8:5-10:41
 8        android:minSdkVersion="23"
-8-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:9:9-34
+8-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:9:9-34
 9        android:targetSdkVersion="31" />
-9-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:10:9-38
+9-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:10:9-38
 10
 11    <uses-permission android:name="android.permission.BLUETOOTH" />
-11-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:12:5-68
-11-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:12:22-65
+11-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:12:5-68
+11-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:12:22-65
 12    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
-12-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:13:5-74
-12-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:13:22-71
-13
-14    <supports-screens
-14-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:15:5-17:37
-15        android:anyDensity="true"
-15-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:16:9-34
-16        android:resizeable="true" />
-16-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:17:9-34
+12-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:13:5-74
+12-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:13:22-71
+13    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+13-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:15:5-73
+13-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:15:22-70
+14    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
+14-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:16:5-78
+14-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:16:22-75
+15    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+15-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:17:5-76
+15-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:17:22-73
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:18:5-79
+16-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:18:22-76
 17
-18    <uses-permission android:name="android.permission.VIBRATE" />
-18-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:19:5-66
-18-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:19:22-63
-19    <uses-permission android:name="android.permission.READ_PROFILE" />
-19-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:20:5-71
-19-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:20:22-68
-20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-20-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:21:5-79
-20-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:21:22-76
-21    <uses-permission android:name="android.permission.INTERNET" />
-21-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:22:5-67
-21-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:22:22-64
-22    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-22-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:23:5-80
-22-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:23:22-77
-23    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
-23-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:24:5-75
-23-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:24:22-72
-24    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-24-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:25:5-81
-24-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:25:22-78
-25    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
-25-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:26:5-27:47
-25-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:26:22-81
-26
-27    <application
-27-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:29:5-49:19
-28        android:allowBackup="true"
-28-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:30:9-35
-29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-29-->[androidx.core:core:1.0.0] /Users/digimat-interactive/.gradle/caches/transforms-3/1a13e9093b391f2d86e34d05488e1a8f/transformed/core-1.0.0/AndroidManifest.xml:22:18-86
-30        android:debuggable="true"
-31        android:extractNativeLibs="false"
-32        android:icon="@drawable/ic_launcher"
-32-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:31:9-45
-33        android:label="@string/app_name"
-33-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:32:9-41
-34        android:testOnly="true"
-35        android:theme="@style/AppTheme" >
-35-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:33:9-40
-36        <activity
-36-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:34:9-43:20
-37            android:name="com.vanch.vhxdemo.MainActivity"
-37-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:35:13-58
-38            android:exported="true"
-38-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:36:13-36
-39            android:label="@string/app_name" >
-39-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:37:13-45
-40            <intent-filter>
-40-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:38:13-42:29
-41                <action android:name="android.intent.action.MAIN" />
-41-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:39:17-69
-41-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:39:25-66
-42
-43                <category android:name="android.intent.category.LAUNCHER" />
-43-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:41:17-77
-43-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:41:27-74
-44            </intent-filter>
-45        </activity>
-46        <activity
-46-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:44:9-48:20
-47            android:name="com.vanch.vhxdemo.ConfigPreference"
-47-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:45:13-62
-48            android:exported="true"
-48-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:46:13-36
-49            android:label="@string/title_activity_config_freference" >
-49-->/Users/digimat-interactive/Desktop/Android_APP_code android studio/FH75Demo/app/src/main/AndroidManifest.xml:47:13-69
-50        </activity>
-51    </application>
-52
-53</manifest>
+18    <uses-feature
+18-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:19:5-87
+19        android:name="android.hardware.bluetooth"
+19-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:19:19-60
+20        android:required="false" />
+20-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:19:61-85
+21    <uses-feature
+21-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:20:5-90
+22        android:name="android.hardware.bluetooth_le"
+22-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:20:19-63
+23        android:required="false" />
+23-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:20:64-88
+24
+25    <supports-screens
+25-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:22:5-24:37
+26        android:anyDensity="true"
+26-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:23:9-34
+27        android:resizeable="true" />
+27-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:24:9-34
+28
+29    <uses-permission android:name="android.permission.VIBRATE" />
+29-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:26:5-66
+29-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:26:22-63
+30    <uses-permission android:name="android.permission.READ_PROFILE" />
+30-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:27:5-71
+30-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:27:22-68
+31    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+31-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:28:5-79
+31-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:28:22-76
+32    <uses-permission android:name="android.permission.INTERNET" />
+32-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:29:5-67
+32-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:29:22-64
+33    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+33-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:30:5-80
+33-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:30:22-77
+34    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+34-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:31:5-75
+34-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:31:22-72
+35    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+35-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:32:5-81
+35-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:32:22-78
+36    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+36-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:33:5-34:47
+36-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:33:22-81
+37
+38    <application
+38-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:36:5-56:19
+39        android:allowBackup="true"
+39-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:37:9-35
+40        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+40-->[androidx.core:core:1.0.0] /Users/newlandios/.gradle/caches/transforms-3/1a13e9093b391f2d86e34d05488e1a8f/transformed/core-1.0.0/AndroidManifest.xml:22:18-86
+41        android:debuggable="true"
+42        android:extractNativeLibs="false"
+43        android:icon="@drawable/ic_launcher"
+43-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:38:9-45
+44        android:label="@string/app_name"
+44-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:39:9-41
+45        android:testOnly="true"
+46        android:theme="@style/AppTheme" >
+46-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:40:9-40
+47        <activity
+47-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:41:9-50:20
+48            android:name="com.vanch.vhxdemo.MainActivity"
+48-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:42:13-58
+49            android:exported="true"
+49-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:43:13-36
+50            android:label="@string/app_name" >
+50-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:44:13-45
+51            <intent-filter>
+51-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:45:13-49:29
+52                <action android:name="android.intent.action.MAIN" />
+52-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:46:17-69
+52-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:46:25-66
+53
+54                <category android:name="android.intent.category.LAUNCHER" />
+54-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:48:17-77
+54-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:48:27-74
+55            </intent-filter>
+56        </activity>
+57        <activity
+57-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:51:9-55:20
+58            android:name="com.vanch.vhxdemo.ConfigPreference"
+58-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:52:13-62
+59            android:exported="true"
+59-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:53:13-36
+60            android:label="@string/title_activity_config_freference" >
+60-->/Users/newlandios/Documents/Documents/GitHub/rfidreader/FH75Demo/app/src/main/AndroidManifest.xml:54:13-69
+61        </activity>
+62    </application>
+63
+64</manifest>

@@ -465,6 +465,7 @@ public class InventoryUI extends Fragment implements OnItemLongClickListener {
 				EventBus.getDefault().post(new EpcInventoryEvent());
 			}
 			// EventBus.getDefault().post(new InventoryTerminal());
+			Thread.sleep(5000);
 		} catch (IOException e1) {
 			e1.printStackTrace();
 		} catch (InterruptedException e1) {

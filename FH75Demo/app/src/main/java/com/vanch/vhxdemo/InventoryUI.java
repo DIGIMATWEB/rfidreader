@@ -219,7 +219,7 @@ public class InventoryUI extends Fragment implements OnItemLongClickListener {
 					if (!inventoring) {
 						inventoring = !inventoring;
 						readCount = 0;
-						/** 列表有多少行，即epc2num的长度是多少，就显示多少个 */
+						/** 列表有多少行，即epc2num的长度是多少，就显示多少个 */ //Se mostrará el número de filas de la lista, es decir, la longitud de epc2num.
 						txtCount.setText("" + epc2num.size());
 						
 						//txtCount.setText("" + readCount);  这一句不能准确统计条数
@@ -438,6 +438,7 @@ public class InventoryUI extends Fragment implements OnItemLongClickListener {
 			}
 			VH73Device.ListTagIDResult listTagIDResult = VH73Device
 					.parseListTagIDResult(ret);
+			logScannedTagIDs(listTagIDResult.epcs);
 			addEpc(listTagIDResult);
 			EventBus.getDefault().post(new EpcInventoryEvent());
 			// read the left id
@@ -475,6 +476,15 @@ public class InventoryUI extends Fragment implements OnItemLongClickListener {
 		}
 	}
 
+	private void logScannedTagIDs(ArrayList<byte[]> epcs) {
+		StringBuilder sb = new StringBuilder("Recently scanned tag IDs: ");
+		for (byte[] bs : epcs) {
+			String string = Utility.bytes2HexString(bs);
+			sb.append(string).append(", ");
+		}
+		Log.i("Scanned", sb.toString());
+	}
+
 	public void onEventMainThread(TimeoutEvent e) {
 		progressDialog.dismiss();
 		Utility.showDialogInNonUIThread(getActivity(),
@@ -504,6 +514,7 @@ public class InventoryUI extends Fragment implements OnItemLongClickListener {
 		ArrayList<byte[]> epcs = list.epcs;
 		for (byte[] bs : epcs) {
 			String string = Utility.bytes2HexString(bs);
+
 			if (!ConfigUI.getConfigSkipsame(getActivity())) {
 				if (epc2num.containsKey(string)) {
 					epc2num.put(string, epc2num.get(string) + 1);

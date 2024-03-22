@@ -485,7 +485,9 @@ public class InventoryUI extends Fragment implements OnItemLongClickListener {
 		}
 		Log.i("Scanned", sb.toString());
 	}
-
+	private void prinLog(String id) {
+		Log.i("Scanned", "scanned from adapter"  +id);
+	}
 	public void onEventMainThread(TimeoutEvent e) {
 		progressDialog.dismiss();
 		Utility.showDialogInNonUIThread(getActivity(),
@@ -573,7 +575,7 @@ public class InventoryUI extends Fragment implements OnItemLongClickListener {
 	 * 刷新列表
 	 */
 	private void refreshList() {
-		adapter = new IdListAdaptor();
+		adapter = new IdListAdaptor(this);
 		listView.setAdapter(adapter);
 		// listView.scrollTo(0, adapter.getCount());
 		listView.setSelection(listView.getAdapter().getCount() - 1);
@@ -592,6 +594,11 @@ public class InventoryUI extends Fragment implements OnItemLongClickListener {
 	}
 
 	private class IdListAdaptor extends BaseAdapter {
+		private InventoryUI mview;
+		public IdListAdaptor(InventoryUI mview) {
+			this.mview=mview;
+		}
+
 		@Override
 		public int getCount() {
 			return epc2num.size();
@@ -625,9 +632,12 @@ public class InventoryUI extends Fragment implements OnItemLongClickListener {
 			TextView textViewNoTitle = (TextView) view
 					.findViewById(R.id.txt_no_title);
 			textViewNoTitle.setText(Strings.getString(R.string.count_lable));
+			mview.prinLog(id);
 			return view;
 		}
 	}
+
+
 
 	@Override
 	public void onDestroy() {
@@ -657,6 +667,7 @@ public class InventoryUI extends Fragment implements OnItemLongClickListener {
 		Epc epc = new Epc(ids[position], epc2num.get(ids[position]));
 		EventBus.getDefault().postSticky(new AccessUI.EpcSelectedEvent(epc));
 		Log.i(TAG, "epc selected " + epc);
+		Log.i("Scanned", "longclick "  +epc);
 		return true;
 	}
 

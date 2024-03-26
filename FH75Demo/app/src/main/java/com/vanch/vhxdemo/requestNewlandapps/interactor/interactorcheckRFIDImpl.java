@@ -2,6 +2,7 @@ package com.vanch.vhxdemo.requestNewlandapps.interactor;
 
 import android.content.Context;
 import android.util.Log;
+import android.widget.Toast;
 
 import com.google.gson.Gson;
 import com.vanch.vhxdemo.requestNewlandapps.model.requestRfidLoc;
@@ -57,15 +58,18 @@ public class interactorcheckRFIDImpl implements  interactorcheckRFID {
                             presenter.setResponse(false, response.body().getData(),code);
                         }
                     } else {
+                        Toast.makeText(context, ""+response.code(), Toast.LENGTH_SHORT).show();
                         Log.e("request", "Response body is null");
                     }
                 } else {
+                    Toast.makeText(context, ""+response.code(), Toast.LENGTH_SHORT).show();
                     Log.e("request", "Failed response: " + response.code());
                 }
             }
 
             @Override
             public void onFailure(Call<responseRfid> call, Throwable t) {
+                Toast.makeText(context, ""+t.getMessage(), Toast.LENGTH_LONG).show();
                 Log.e("request", "onFailure: " + t.getMessage());
                 if (t instanceof HttpException) {
                     ResponseBody errorBody = ((HttpException) t).response().errorBody();

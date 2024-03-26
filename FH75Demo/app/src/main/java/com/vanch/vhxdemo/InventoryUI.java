@@ -535,7 +535,11 @@ public class InventoryUI extends Fragment implements OnItemLongClickListener, vi
 			String code;
 			code= logScannedTagIDs(listTagIDResult.epcs);
 			if(locationLat!=null&&locationLong!=null) {
-				presenter.reqRfid(code, locationLat, locationLong);
+				if(locationLat!=0.0&&locationLong!=0.0) {
+					presenter.reqRfid(code, locationLat, locationLong);
+				}else{
+					Toast.makeText(getContext(), "mueve el dispositivo para activar el gps", Toast.LENGTH_SHORT).show();
+				}
 			}else{
 				Toast.makeText(getContext(), "mueve el dispositivo para activar el gps", Toast.LENGTH_SHORT).show();
 
